@@ -1,0 +1,2 @@
+select ('SEU FILTRO AQUI...')   from 'TABELA DE BUSCA' (nolock)
+where (convert(char(8),'DATA INCIO DA TABELA DE BUSCA',112)  >=  '20230301'  and  convert(char(8),'DATA FINAL DA TABELA DE BUSCA',112)  <=  '20230320')

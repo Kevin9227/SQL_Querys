@@ -1,0 +1,12 @@
+USE master;
+GO
+ALTER DATABASE AdventureWorks2012
+SET SINGLE_USER
+WITH ROLLBACK IMMEDIATE;
+
+
+
+-- Voltar a colocar normal
+ALTER DATABASE AdventureWorks2012
+SET MULTI_USER;
+GO
